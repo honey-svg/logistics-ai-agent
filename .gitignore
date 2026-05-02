@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/        # Ignore environment files with secrets
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Testing & Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# --- Build & Distribution ---
+build/
+dist/
+*.tar.gz
+*.whl
+
+# --- Data & Sessions ---
+*.sqlite3
+*.db
+sessions.json
+data/
